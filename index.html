@@ -9,124 +9,200 @@
 
 <body>
 
-<!-- Navbar -->
+<!-- NAVBAR -->
 <nav class="navbar">
-    <h2 class="logo">Bhavin</h2>
-    <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#certificates">Certificates</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
+<div class="logo">Bhavin Shankur</div>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#achievements">Achievements</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<button id="darkModeToggle">🌙</button>
 </nav>
 
-<!-- Hero Section -->
-<section id="home" class="hero">
-    <div class="hero-text">
-        <h1>Bhavin Shankur</h1>
-        <h2>Computer Science Student | AI Enthusiast</h2>
-        <p>Passionate about Artificial Intelligence, Web Development and building real-world tech projects.</p>
-        <a href="#certificates" class="btn">View Certificates</a>
-    </div>
+<!-- HOME -->
+<section id="home" class="section home">
+<div class="home-container">
 
-    <div class="hero-img">
-        <img src="images/profile.jpg" alt="profile">
-    </div>
+<img src="assets/profile.jpg" class="profile">
+
+<h1>Bhavin Shankur</h1>
+<h2>Computer Science Student | AI Enthusiast</h2>
+
+<p>A passionate student exploring AI, Web Development and building
+innovative projects.</p>
+
+<a href="#about" class="btn">View Portfolio</a>
+
+</div>
 </section>
 
-<!-- About -->
-<section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-        I am a Computer Science student passionate about Artificial Intelligence,
-        Web Development and building modern applications.
-    </p>
+<!-- ABOUT -->
+<section id="about" class="section">
+<h2 class="section-title">About Me</h2>
 
-    <div class="skills">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>Python</span>
-        <span>AI</span>
-        <span>Machine Learning</span>
-    </div>
+<div class="about-container">
+
+<div>
+<h3>Education</h3>
+<p>Computer Science Student passionate about Artificial Intelligence and modern technologies.</p>
+
+<h3>Interests</h3>
+<p>AI, Web Development, Machine Learning, Technology</p>
+
+<h3>Career Goals</h3>
+<p>To become an AI Engineer and build impactful solutions.</p>
+
+<h3>Strengths</h3>
+<p>Quick learner, problem solving, teamwork, creativity</p>
+</div>
+
+<div class="skills">
+<h3>Skills</h3>
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Python</span>
+<span>AI</span>
+<span>ML</span>
+</div>
+
+</div>
 </section>
 
-<!-- Certificates -->
-<section id="certificates" class="certificates">
-    <h2>Certificates</h2>
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="section">
+<h2 class="section-title">Achievements</h2>
 
-    <div class="cert-grid">
+<div class="card-grid">
 
-        <div class="cert-card">
-            <img src="images/cert1.jpg">
-            <h3>Artificial Intelligence on Microsoft Azure</h3>
-            <p>Microsoft / Coursera</p>
-            <button onclick="openImage('images/cert1.jpg')">View</button>
-        </div>
+<div class="card">
+<img src="assets/ai4a.jpg">
+<h3>AI4A Project</h3>
+<p>Artificial Intelligence for All project implementation.</p>
+</div>
 
-        <div class="cert-card">
-            <img src="images/cert2.jpg">
-            <h3>Oracle Cloud Infrastructure Foundations</h3>
-            <p>Oracle / Coursera</p>
-            <button onclick="openImage('images/cert2.jpg')">View</button>
-        </div>
+<div class="card">
+<img src="assets/design-thinking.jpg">
+<h3>Design Thinking Project</h3>
+<p>Problem solving using design thinking methodology.</p>
+</div>
 
-        <div class="cert-card">
-            <img src="images/cert3.jpg">
-            <h3>Introduction to Networking</h3>
-            <p>NVIDIA / Coursera</p>
-            <button onclick="openImage('images/cert3.jpg')">View</button>
-        </div>
+<div class="card">
+<img src="assets/ace.jpg">
+<h3>ACE Project</h3>
+<p>Applied computing engineering academic project.</p>
+</div>
 
-    </div>
+<div class="card">
+<img src="assets/cert1.jpg">
+<h3>Coursera Certificate</h3>
+<p>Online certification from Coursera platform.</p>
+</div>
+
+<div class="card">
+<img src="assets/cert2.jpg">
+<h3>Netcad Certificate</h3>
+<p>Technical learning certification.</p>
+</div>
+
+<div class="card">
+<img src="assets/cert3.jpg">
+<h3>Yuva AI Certificate</h3>
+<p>Artificial Intelligence workshop completion.</p>
+</div>
+
+</div>
 </section>
 
-<!-- Projects -->
-<section id="projects" class="projects">
-<h2>Projects</h2>
+<!-- PROJECTS -->
+<section id="projects" class="section">
+<h2 class="section-title">Projects</h2>
 
-<div class="project-grid">
+<div class="card-grid">
 
-<div class="project-card">
-<h3>AI Medical Report Analyzer</h3>
-<p>AI app that simplifies patient medical reports</p>
+<div class="card">
+<img src="assets/ai4a.jpg">
+<h3>AI4A Project</h3>
+<p>AI based academic project</p>
+<div class="buttons">
 <a href="#">GitHub</a>
+<a href="#">Live Demo</a>
+</div>
 </div>
 
-<div class="project-card">
-<h3>AI Personal Tutor</h3>
-<p>Chatbot that generates learning roadmap</p>
+<div class="card">
+<img src="assets/design-thinking.jpg">
+<h3>Design Thinking</h3>
+<p>Innovation focused project</p>
+<div class="buttons">
 <a href="#">GitHub</a>
+<a href="#">Live Demo</a>
+</div>
 </div>
 
-<div class="project-card">
-<h3>Portfolio Website</h3>
-<p>Responsive personal portfolio website</p>
+<div class="card">
+<img src="assets/ace.jpg">
+<h3>ACE Project</h3>
+<p>Engineering computing project</p>
+<div class="buttons">
 <a href="#">GitHub</a>
+<a href="#">Live Demo</a>
+</div>
 </div>
 
 </div>
 </section>
 
-<!-- Contact -->
-<section id="contact" class="contact">
-<h2>Contact Me</h2>
+<!-- GALLERY -->
+<section id="gallery" class="section">
+<h2 class="section-title">Gallery</h2>
+
+<div class="gallery">
+
+<img src="assets/gallery1.jpg">
+<img src="assets/gallery2.jpg">
+<img src="assets/cert1.jpg">
+<img src="assets/cert2.jpg">
+<img src="assets/cert3.jpg">
+<img src="assets/profile.jpg">
+
+</div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+<span id="close">&times;</span>
+<img id="lightbox-img">
+</div>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+<h2 class="section-title">Contact</h2>
+
+<div class="contact-container">
 
 <div class="contact-info">
 <p>Email: your@email.com</p>
-<p>LinkedIn: linkedin.com/in/yourprofile</p>
-<p>GitHub: github.com/yourgithub</p>
+<p>Phone: +91 XXXXXXXX</p>
+<p>LinkedIn: linkedin.com</p>
+<p>GitHub: github.com</p>
+<p>Location: India</p>
 </div>
 
 <form class="contact-form">
-<input type="text" placeholder="Your Name">
-<input type="email" placeholder="Your Email">
+<input type="text" placeholder="Name">
+<input type="email" placeholder="Email">
 <textarea placeholder="Message"></textarea>
-<button type="submit">Send</button>
+<button>Send</button>
 </form>
 
+</div>
 </section>
 
 <script src="script.js"></script>
